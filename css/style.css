@@ -356,22 +356,23 @@ button {
 }
 #costum_slider a.carousel-control-prev {
   position: absolute;
-  left: -153px;
+  left: -123px;
   top: 57%;
   background-color: #000;
   color: #ffffff;
   border-radius: 100px;
+  /* margin-block-end: auto; */
 }
 
 #costum_slider a.carousel-control-next {
   position: absolute;
-  right: -150px;
+  right: -120px;
   top: 57%;
 }
 #costum_slider .carousel-control-prev,
 #costum_slider .carousel-control-next {
-  width: 85px;
-  height: 85px;
+  width: 65px;
+  height: 65px;
   background: #000;
   opacity: 1;
   font-size: 30px;
@@ -384,6 +385,14 @@ button {
 #costum_slider .carousel-control-next:focus {
   background: #c9dc87;
   color: #fff;
+}
+.control-prev-img img {
+  width: 35px;
+  height: 35px;
+}
+.control-next-img img {
+  width: 35px;
+  height: 35px;
 }
 
 .services_section {
@@ -862,6 +871,12 @@ a:hover {
   font-size: 36px;
   color: #ffffff;
 }
+.contact_paragraph {
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  color: #ffffff;
+}
 .email-bt {
   color: #989696;
   width: 100%;
@@ -878,7 +893,7 @@ input.email-bt::placeholder {
 .massage-bt {
   color: #989696;
   width: 100%;
-  height: 150px;
+  height: 132px;
   font-size: 18px;
   padding: 50px 20px 10px 20px;
   margin-top: 25px;
@@ -977,6 +992,14 @@ textarea#comment::placeholder {
   color: #ffffff;
   text-transform: uppercase;
 }
+.footer_text {
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 0px;
+}
 
 .footer_lorem_text {
   width: 80%;
@@ -995,6 +1018,7 @@ textarea#comment::placeholder {
 .social_icon {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 20px;
   text-align: center;
   padding-top: 30px;
 }
