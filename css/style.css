@@ -191,6 +191,11 @@ img {
   border: none !important;
 }
 
+/* .img-logo{
+  height: 60px;
+  weightt: 800px;
+} */
+
 .badge {
   font-weight: 500;
 }
@@ -238,6 +243,13 @@ button {
 .navbar-light .navbar-nav .nav-link {
   color: #111111;
   font-size: 18px;
+  text-transform: uppercase;
+}
+
+.text-logo{
+  color: #c9dc87;
+  font-size: 18px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link:focus,
@@ -401,10 +413,11 @@ button {
   padding-bottom: 90px;
   background-color: #b4bf4a;
 }
-.services_taital {
+.products_text {
   width: 100%;
   float: left;
   font-size: 36px;
+  font-weight:500;
   color: #090808;
   text-align: center;
   text-transform: uppercase;
@@ -486,6 +499,14 @@ button {
   text-transform: uppercase;
   font-weight: 500;
 }
+.slider_text {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 .lorem_text {
   width: 100%;
   float: left;
@@ -494,25 +515,36 @@ button {
   margin-left: 0px;
   padding-top: 40px;
 }
+.sliderparagraph_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 0px;
+  padding-top: 40px;
+}
 .read_bt1 {
   width: 30%;
   float: left;
   margin-top: 70px;
+  font-weight:500;
+
 }
 .read_bt1 a {
   width: 100%;
   float: left;
   font-size: 18px;
   color: #ffffff;
-  background-color: #070201;
+  background-color: #c9dc87;
   text-align: center;
   padding: 10px 0px;
   border-radius: 5px;
   text-transform: uppercase;
+  
 }
 .read_bt1 a:hover {
-  color: #000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
 }
 .furnitures_section {
   width: 100%;
@@ -523,6 +555,7 @@ button {
   width: 100%;
   float: left;
   font-size: 36px;
+  font-weight: 500;
   color: #121111;
   text-transform: uppercase;
   text-align: center;
@@ -791,6 +824,7 @@ a:hover {
   color: #121111;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 500;
 }
 .clients_section2 {
   width: 100%;
