@@ -518,6 +518,15 @@ height: auto;
 padding-bottom: 90px;
 }
 
+.about2_section {
+  width: 100%;
+  float: left;
+  background-color: #b4bf4a;
+  height: auto;
+  padding-bottom: 90px;
+  margin-top: 70px;
+  }
+
 .objective_section {
 width: 100%;
 float: left;
