@@ -546,6 +546,53 @@ button {
   color: #ffffff;
   background-color: #000000;
 }
+
+.read_btn2 {
+  width: 30%;
+  float: right;
+  margin-top: 70px;
+  font-weight:500;
+
+}
+.read_btn2 a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #c9dc87;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  
+}
+.read_btn2 a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.product_price {
+  width: 100%;
+  float: left;
+  margin-top: 70px;
+  font-weight:500;
+
+}
+
+.product_price p {
+  width: 30%;
+  float: left;
+  font-size: 18px;
+  color: #b4bf4a;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 35px;
+}
+
+
+
+
+
 .furnitures_section {
   width: 100%;
   float: left;
