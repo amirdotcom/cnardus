@@ -16,9 +16,12 @@
   
   
   .features .features-item img {
-    border: 6px solid var(--color-box-background);
+    /* border: 6px solid var(--color-box-background);
     box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
+    -webkit-box-shadow: 17px 2px 37px 10px rgba(166,166,166,0.61);
+    -moz-box-shadow: 17px 2px 37px 10px rgba(166,166,166,0.61);
+    box-shadow: 17px 2px 37px 10px rgba(166,166,166,0.61);
   }
   
   .features .features-item .features-img-bg {
