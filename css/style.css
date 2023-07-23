@@ -759,6 +759,7 @@ margin-bottom: 40px;
 
 .lorem_text img {
 width: 50px;
+max-width: 50px !important;
 height: auto;
 margin-top: px;
 }
@@ -1696,6 +1697,7 @@ margin-left: 14px;
 float: left;
 width: 20px;
 height: 20px;
+max-width: 20px !important;
 margin-top: 10px;
 }
 
