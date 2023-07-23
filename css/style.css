@@ -308,15 +308,25 @@ float: left;
 
 .banner_section {
 width: 100%;
+height:900px;
 float: left;
-background-image: url(../images/headerbg.svg);
+background-image: url(../images/Untitled\ design.png);
 /* background-color: #81b622; */
-height: auto;
-padding-bottom: 50px;
+/* padding-bottom: 50px; */
 background-size: 100%;
 background-repeat: no-repeat;
 }
 
+.shop_section {
+  width: 100%;
+  float: left;
+   /* background-color: #81b622; */
+  height: auto;
+  padding-bottom: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  }
 .icon_1 {
 width: 60%;
 float: center;
@@ -441,8 +451,10 @@ height: 35px;
 .services_section {
 width: 100%;
 float: left;
+height: auto;
 padding-bottom: 90px;
-background-color: #ffffff;
+/* background-image: url(../images/Untitled\ design\ \(3\).png); */
+background-color: #cadc871b;
 }
 
 .more_section {
@@ -534,18 +546,25 @@ height: auto;
 margin-bottom: 90px;
 }
 .about1_section {
-  width: 100%;
-  float: left;
-  background-color: #b4bf4a;
-  height: auto;
-  }
-
-.about2_section {
 width: 100%;
 float: left;
 background-color: #b4bf4a;
 height: auto;
-margin-top: 70px;
+}
+
+.about2_section {
+width: 100%;
+float: left;
+/* background-color: #b4bf4a; */
+background-image: url(../images/Untitled\ design\ \(3\).png);
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.about3 {
+text-align: center;
+float: center;
+
 }
 
 .objective_section {
@@ -567,17 +586,43 @@ text-transform: uppercase;
 
 }
 
-.objectives_text {
+.newobjective {
   width: 100%;
   float: left;
-  font-size: 36px;
-  font-weight: 500;
-  color: #000000;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  
-  }
+  background-color: #ffffff;
+  height: auto;
+  margin-top: 80px;
+}
+.newabout{
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  height: auto;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.objectives_text {
+width: 100%;
+float: left;
+font-size: 36px;
+font-weight: 500;
+color: #000000;
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 40px;
+margin-top: 40px;
+
+}
+
+.features{
+  width: 100%;
+  float: left;
+  background-color: #ffffff;
+  height: auto;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
 
 .map_title {
 width: 100%;
@@ -590,12 +635,12 @@ text-transform: uppercase;
 margin-top: 40px;
 }
 .map_desc {
-  float: center;
-  font-size: 16px;
-  color: #000000;
-  margin-left: 0px;
-  text-align: justify;
-  
+float: center;
+font-size: 16px;
+color: #000000;
+margin-left: 0px;
+text-align: justify;
+
 }
 
 .map_section {
@@ -619,8 +664,20 @@ font-weight: 500;
 }
 
 .main_image img {
-margin-top: 40px;
+margin-top: 20px;
+border-radius: 12px;
+border-color: white;
+
 }
+
+.main_image2 img {
+  margin-top: 20px;
+  border-radius: 12px;
+  border-color: white;
+  width: 100%;
+  
+  }
+  
 
 .image_1 img {
 width: 100%;
@@ -659,19 +716,19 @@ font-size: 40px;
 color: #ffffff;
 text-transform: uppercase;
 font-weight: 500;
-margin-top: 40px;
+margin-top: 200px;
 text-align: justify;
 }
 
 .slider2_text {
-  width: 100%;
-  float: left;
-  font-size: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: 500;
-  text-align: left;
-  }
+width: 100%;
+float: left;
+font-size: 20px;
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 500;
+text-align: left;
+}
 
 .lorem_text {
 width: 100%;
@@ -683,15 +740,21 @@ text-align: justify;
 margin-bottom: 40px;
 }
 
+.lorem_text img {
+  width: 50px;
+height: auto;
+margin-top: px;
+}
+
 .our_objective {
-  width: 100%;
-  float: left;
-  font-size: 16px;
-  color: #ffffff;
-  margin-left: 0px;
-  text-align: justify;
-  margin-bottom: 100px;
-  }
+width: 100%;
+float: left;
+font-size: 16px;
+color: #ffffff;
+margin-left: 0px;
+text-align: justify;
+margin-bottom: 100px;
+}
 
 .footer_lorem_text {
 width: 80%;
@@ -733,7 +796,7 @@ margin-top: 100px;
 }
 
 .row_ob{
-  margin-top: 100px;
+margin-top: 100px;
 }
 
 .ipsum_text b {
@@ -745,7 +808,6 @@ font-size: 18px;
 font-weight: 500;
 font-size: 18px;
 }
-
 
 .list-group-item {
 width: 100%;
@@ -761,16 +823,51 @@ color: #ffffff;
 margin-left: 0px;
 }
 
+.read_bt3 {
+  width: 40%;
+  float: left;
+  font-weight: 500;
+  justify-content: center;
+  margin-bottom: 80px;
+  }
+  
+  .read_bt3 img {
+  width: 50px;
+  height: auto;
+  }
+  
+  .read_bt3 a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #c9dc87;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+  justify-content: center;
+  }
+  
+  .read_bt3 a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    }
+
+    
+
 .read_bt1 {
 width: 40%;
 float: left;
 font-weight: 500;
 
+
 }
 
 .read_bt1 img {
-  width: 50px;
-  height: auto;
+width: 50px;
+height: auto;
 }
 
 .read_bt1 a {
@@ -783,34 +880,98 @@ text-align: center;
 padding: 10px 0px;
 border-radius: 5px;
 text-transform: uppercase;
-
+margin-bottom: 60px;
 }
 
 .read_bt1 a:hover {
-color: #ffffff;
-background-color: #000000;
-}
+  color: #ffffff;
+  background-color: #000000;
+  }
 
-.read_bt2 {
-  float: left;
+/* btsm */
+
+.read_btsm1 {
+  width: 100%;
+  float: center;
   font-weight: 500;
-  
-  }
-  .read_bt2 img {
-    width: 50px;
-    height: auto;
-    /* margin-right: 20px; */
+
   }
   
-  .read_bt2 p {
+  .read_btsm1 img {
+  width: 50px;
+  height: auto;
+  }
+  
+  .read_btsm1 a {
+  width: 100%;
+  float: left;
   font-size: 18px;
   color: #ffffff;
-  text-align: left;
+  background-color: #c9dc87;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
   text-transform: uppercase;
-  margin-top:5px ;
-  margin-left: 0px;
+  margin-bottom: 20px;
   
   }
+  
+  .read_btsm1 a:hover {
+  color: #ffffff;
+  background-color: #000000;
+  }
+
+/*
+.read_more {
+width: 40%;
+float: left;
+font-weight: 500;
+margin-bottom: 20px;
+}
+.read_more img {
+width: 50px;
+height: auto;
+}
+
+.read_more a {
+width: 100%;
+float: left;
+font-size: 18px;
+color: #ffffff;
+background-color: #c9dc87;
+text-align: center;
+padding: 10px 0px;
+border-radius: 5px;
+text-transform: uppercase;
+
+}
+
+.read_more a:hover {
+color: #ffffff;
+background-color: #000000;
+} */
+
+.read_bt2 {
+float: left;
+font-weight: 500;
+
+}
+.read_bt2 img {
+width: 50px;
+height: auto;
+margin-top: 10px;
+/* margin-right: 20px; */
+}
+
+.read_bt2 p {
+font-size: 18px;
+color: #ffffff;
+text-align: left;
+text-transform: uppercase;
+margin-top:5px ;
+margin-left: 0px;
+
+}
 
 .read_btn2 {
 width: 30%;
@@ -878,6 +1039,7 @@ font-weight: 500;
 color: #121111;
 text-transform: uppercase;
 text-align: center;
+margin-top: 0px;
 }
 
 .ipsum_text {
@@ -888,6 +1050,7 @@ color: #090808;
 text-align: center;
 margin-left: 0px;
 margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .process_text {
@@ -984,35 +1147,6 @@ color: #121111;
 margin-top: 10px;
 margin-left: 0px;
 }
-
-.who_section {
-width: 100%;
-float: left;
-background-image: url(../images/banner2.svg);
-height: auto;
-padding-bottom: 55px;
-background-size: 100%;
-}
-
-.who_taital {
-width: 100%;
-float: left;
-font-size: 36px;
-color: #ffffff;
-text-align: center;
-text-transform: uppercase;
-font-weight: 500;
-}
-
-.designer_text {
-width: 100%;
-float: left;
-font-size: 18px;
-color: #ffffff;
-text-align: center;
-text-transform: uppercase;
-}
-
 .get_bt_main {
 width: 13%;
 margin: 0 auto;
@@ -1046,6 +1180,11 @@ background-color: #ffffff;
 width: 100%;
 float: left;
 }
+.projects_section3 {
+  width: 100%;
+  float: left;
+  }
+  
 
 .projects_section2 {
 width: 100%;
@@ -1224,8 +1363,8 @@ bottom: 50px;
 .contact_section {
 width: 100%;
 float: left;
-/* background-image: url(../images/banner2.svg); */
-background-color: #b4bf4a;
+background-image: url(../images/Untitled\ design\ \(3\).png);
+/* background-color: #b4bf4a; */
 height: auto;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -1240,15 +1379,38 @@ float: left;
 .contact_text {
 width: 100%;
 float: left;
+margin-bottom: 10px;
+font-size: 36px;
+color: #ffffff;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.aboutus_text {
+width: 100%;
+float: left;
+margin-bottom: 5px;
+margin-top: 20px;
 font-size: 36px;
 color: #ffffff;
 }
+.aboutus2_text {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 36px;
+  color: #ffffff;
+  }
 
 .contact_paragraph {
 width: 100%;
 float: left;
 font-size: 12px;
 color: #ffffff;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 .email-bt {
@@ -1285,6 +1447,7 @@ color: #989696;
 width: 100%;
 float: left;
 margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .send_bt button {
@@ -1444,34 +1607,30 @@ margin-bottom: 20px;
 text-align: justify;
 }
 
-
-
 .methods_text b{
-  font-weight: 500;
-  font-size: 18px;
-  }
+font-weight: 500;
+font-size: 18px;
+}
 
-  .methods_text2{
-    float: left;
-    font-size: 16px;
-    margin-left: 14px;
-    margin-right: 14px;
-    margin-bottom: 20px;
-    text-align: justify;
-    }
-    
-    
-    
-    .methods_text2 b{
-      font-weight: 500;
-      font-size: 18px;
-      }
+.methods_text2{
+float: left;
+font-size: 16px;
+/* margin-left: 14px; */
+margin-right: 14px;
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+}
 
+.methods_text2 b{
+font-weight: 500;
+font-size: 18px;
+}
 
 .map_desc b {
-  font-weight: 500;
-  font-size: 18px;
-  text-align: justify;
+font-weight: 500;
+font-size: 18px;
+text-align: justify;
 }
 .source img {
 float: left;
@@ -1479,7 +1638,16 @@ width: 60px;
 height: auto;
 margin-left: 14px;
 }
+.source2_text img {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  }
 
+.mar {
+    margin-bottom: 70px;
+  }
 .source_text p {
 float:left;
 margin-top: 10px;
@@ -1495,6 +1663,7 @@ margin-top: 10px;
 color: #000000;
 font-family: 18px;
 font-weight: 600;
+
 }
 
 source2_text b {
@@ -1511,5 +1680,7 @@ margin-top: 60px;
 margin-bottom: 40px;
 }
 .card-text {
-  text-align: center;
+text-align: center;
 }
+
+
