@@ -50,8 +50,8 @@
               <a class="nav-link" href="shop.html">Shop</a>
             </li>
             <li class="nav-item">
-             <a class="nav-link" href="about.html">About</a>
-           </li>
+              <a class="nav-link" href="about.html">About</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="buton" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">How to use</a>
@@ -81,10 +81,10 @@
         </div>
         <div class="col-md-6">
           <div class="mail_sectin">
-            <input type="text" class="email-bt" id="name" placeholder="Name" name="name" />
-            <input type="email" class="email-bt" id="email" placeholder="emailexample@gmail.com" name="email" />
-            <input type="text" class="email-bt" id="subject" placeholder="Subject" name="subject" />
-            <textarea class="massage-bt" placeholder="Massage" rows="5" id="message" name="massage"></textarea>
+            <input type="text" class="email-bt" id="name" placeholder="Name" name="name" required/>
+            <input type="email" class="email-bt" id="email" placeholder="emailexample@gmail.com" name="email" required />
+            <input type="text" class="email-bt" id="subject" placeholder="Subject" name="subject" required />
+            <textarea class="massage-bt" placeholder="Massage" rows="5" id="message" name="massage" required></textarea>
             <div class="send_bt">
               <button type="submit" onclick="sendMail()">SEND</button>
             </div>
@@ -115,9 +115,9 @@
                 .gmap_iframe {
                   height: 400px !important;
                   border-radius: 4px;
-                  -webkit-box-shadow: 6px 2px 29px -4px rgba(166,166,166,0.61);
--moz-box-shadow: 6px 2px 29px -4px rgba(166,166,166,0.61);
-box-shadow: 6px 2px 29px -4px rgba(166,166,166,0.61);
+                  -webkit-box-shadow: 6px 2px 29px -4px rgba(166, 166, 166, 0.61);
+                  -moz-box-shadow: 6px 2px 29px -4px rgba(166, 166, 166, 0.61);
+                  box-shadow: 6px 2px 29px -4px rgba(166, 166, 166, 0.61);
                 }
               </style>
             </div>
@@ -134,9 +134,9 @@ box-shadow: 6px 2px 29px -4px rgba(166,166,166,0.61);
       <div class="social_icon">
         <ul>
           <li><a href="https://www.facebook.com/people/SMK-GEDANGSA/100063831612434/?mibextid=LQQJ4d"><img
-                   src="images/facebook.png"></a></li>
+                src="images/facebook.png"></a></li>
           <li><a href="https://wa.link/ohx6nu"><img src="images/whatsapp (1).png"></a></li>
-       </ul>
+        </ul>
         <p class="container_text">
           2023 All Rights Reserved. Design by team MMS3033
         </p>
@@ -146,7 +146,7 @@ box-shadow: 6px 2px 29px -4px rgba(166,166,166,0.61);
   <script src="./js/contact.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
-    (function () {
+    (function() {
       emailjs.init("MnLvZMSNeGKTyf8GB");
     })();
   </script>
